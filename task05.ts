@@ -13,7 +13,7 @@
 // 	console.log("Unknown fruit.");
 // }
 
-const fruit: string = "banana";
+let fruit = "banana";
 
 switch (fruit) {
 	case "apple":
@@ -28,4 +28,6 @@ switch (fruit) {
 	default:
 		console.log("Unknown fruit.");
 }
+
+
 
